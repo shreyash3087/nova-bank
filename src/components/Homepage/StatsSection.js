@@ -22,9 +22,9 @@ function StatsSection() {
 
         <div className="flex flex-col sm:flex-row gap-6 sm:gap-10 items-center">
           <div className="text-gray-500 text-sm w-64">
-            Whether you're just getting started or employ an established team,
-            Novo can help you get your business's finances in order. Here's how
-            small business customers have found success using Novo's powerful
+            Whether you&apos;re just getting started or employ an established team,
+            Novo can help you get your business&apos;s finances in order. Here&apos;s how
+            small business customers have found success using Novo&apos;s powerful
             digital banking tools.
           </div>
           <button className="flex gap-2 border border-gray-300 rounded-full px-4 py-2 items-center text-lg">
