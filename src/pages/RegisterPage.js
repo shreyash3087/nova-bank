@@ -7,11 +7,15 @@ import { faUsers } from "@fortawesome/free-solid-svg-icons";
 import { toast, Toaster } from "react-hot-toast";
 import { useAuth } from "../../context/authContext";
 function RegisterPage() {
-  const { setIsLoggedIn } = useAuth();
+  const { setIsLoggedIn } = useAuth() || {}; 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const router = useRouter();
-
+  useEffect(() => {
+    if (!setIsLoggedIn) {
+      console.warn("Auth context is not available.");
+    }
+  }, [setIsLoggedIn]);
   const handleSignup = async () => {
     try {
       const response = await fetch("/api/register", {

@@ -4,12 +4,16 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useAuth } from "../../context/authContext";
 function LoginPage() {
-  const { setIsLoggedIn } = useAuth();
+  const { setIsLoggedIn } = useAuth() || {}; 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const router = useRouter();
-
+  useEffect(() => {
+    if (!setIsLoggedIn) {
+      console.warn("Auth context is not available.");
+    }
+  }, [setIsLoggedIn]);
   const handleLogin = async (e) => {
     e.preventDefault();
 
