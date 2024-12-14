@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NovaBank  
 
-## Getting Started
+NovaBank is a fictional banking platform designed to showcase modern web development skills. This project is inspired by the design concept from [Dribbble](https://dribbble.com/shots/23439870-Nova-Bank-Landing-Page) and built using **Next.js**, ensuring a responsive, user-friendly experience.  
 
-First, run the development server:
+🔗 **Live Preview**: [Nova Bank Website](https://nova-bank-chi.vercel.app)  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### **Repository Under**: AcWoC'25  
+### **Club**: Android Club, VIT Bhopal University  
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features  
+- **Next.js Framework**: Fast and scalable web application development.  
+- **Modern UI Design**: Inspired by cutting-edge fintech interfaces.  
+- **Responsive Layout**: Seamless across devices.  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 💻 Tech Stack  
+- **Frontend**: Next.js, React, Tailwind CSS  
+- **Deployment**: Vercel  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🌟 Inspiration  
+This project takes design cues from [Nova Bank Landing Page](https://dribbble.com/shots/23439870-Nova-Bank-Landing-Page) on Dribbble to provide a sleek and engaging user experience.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🛠️ Setup and Run  
+1. Clone the repository:  
+  ```bash  
+  git clone https://github.com/your-username/nova-bank.git  
+  ```
+2. Install dependencies:
+  ```bash
+  npm install  
+  ```
+3.Start the development server:
+  ```bash
+  npm run dev
+  ```
+Open the project in your browser:
+  ```bash
+  http://localhost:3000
+  ```
 
-## Deploy on Vercel
+## 🧑‍💻 Contributors
+We welcome contributions! Feel free to fork the repo and submit a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📄 License
+This project is for educational purposes and does not represent a real banking platform.
