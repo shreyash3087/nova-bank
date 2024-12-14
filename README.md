@@ -16,7 +16,7 @@ NovaBank is a fictional banking platform designed to showcase modern web develop
 ---
 
 ## 💻 Tech Stack  
-- **Frontend**: Next.js, React, Tailwind CSS  
+- **Frontend**: Next.js, Tailwind CSS  
 - **Deployment**: Vercel  
 
 ---
